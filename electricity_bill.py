@@ -2,7 +2,7 @@ def units_cost(units):
     return units * 5
 
 def fixed_charge():
-    return 50
+    return 60
 
 def total_bill(units):
     return units_cost(units) + fixed_charge()
